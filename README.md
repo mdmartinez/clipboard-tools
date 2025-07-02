@@ -9,7 +9,7 @@ A simple Python tool for interacting with the macOS clipboard using PyObjC.
 
 ## Motivation
 
-I recently encountered a situation where I couldn't view some content on my clipboard in my editor or by using `pbpaste`. I learned that on MacOS, if the clipboard content doesn't specifically contain the `public.utf8-plain-text` type, then `pbpaste` will not display it.
+I recently encountered a situation where I couldn't view some content on my clipboard in my editor or by using `pbpaste`. I learned that on macOS, if the clipboard content doesn't specifically contain the `public.utf8-plain-text` type, then `pbpaste` will not display it.
 
 This repo helps to inspect and extract clipboard content.
 
