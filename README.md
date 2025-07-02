@@ -45,7 +45,7 @@ Or using pip:
 
 ```sh
 git clone https://github.com/mdmartinez/clipboard-tools.git
-cd clipboard-tool
+cd clipboard-tools
 pip install .
 ```
 
@@ -102,4 +102,4 @@ MIT License
 
 ## Other Tools
 
-The CLI tool [pbv](https://github.com/chbrown/macos-pasteboard) can also be used to view clipboard content when `public.utf8-plain-text` is missing. This tool is more convenient as a direct repplacement for `pbpaste`.
+The CLI tool [pbv](https://github.com/chbrown/macos-pasteboard) can also be used to view clipboard content when `public.utf8-plain-text` is missing. This tool is more convenient as a direct replacement for `pbpaste`.

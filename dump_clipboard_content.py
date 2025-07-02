@@ -1,4 +1,3 @@
-# dump_html_clipboard.py
 from AppKit import NSPasteboard
 
 def main():
