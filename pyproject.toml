@@ -1,0 +1,22 @@
+[project]
+name = "clipboard-tools"
+version = "0.1.0"
+description = "view non-text clipboard content"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyobjc>=11.1",
+]
+[project.scripts]
+info = "get_clipboard_types:main"
+dump = "dump_clipboard_content:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["dump_clipboard_content", "get_clipboard_types"]
+
+[tool.uv]
+package = true
